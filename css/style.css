@@ -1,0 +1,566 @@
+*{
+	 margin:0;
+	 padding:0; 
+	 font-family:sans-serif; 
+}
+
+.cnt-menu{
+	     background-color:#185ca9;
+	     width:100%;
+	     height:85px;
+	     position: fixed;
+	     top: 0px;
+	     z-index: 200;
+	     display:flex;
+	     justify-content: space-between;
+	     align-items:center;     
+	     box-shadow: 0px 3px 9px #16171a;
+}
+
+.logo{
+	display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 40%;
+	cursor:pointer;
+    -webkit-transition-duration:2s;
+}
+
+.logo:hover{
+	transform:translateX(30px);
+}
+
+.logo img{
+	    width:70px;
+	    height:auto; 
+	    padding-left: 10%;
+        padding-right: 20px;
+}
+
+.logo h2{
+	color: white;
+}
+
+nav{
+	width: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+nav a{
+    	list-style: none;
+    	text-decoration: none;
+	    color: white;  
+        padding: 10px;   
+        font-weight: 600;
+}
+
+nav a:hover{
+    color: #908888e3;
+}
+
+#banners{
+
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+         position:relative;
+	     z-index:1; 
+         margin-top: 85px;  
+         background-image:url(../img/bnn2.jpg); 
+	     width:100%;
+         height:450px;
+         background-attachment:fixed;
+         background-size:cover;  
+         background-repeat:no-repeat;
+     }	
+
+ #banners:before{
+        	content: "";
+        	background: linear-gradient(155deg, #55667e, #212e6e);
+	        background-repeat:no-repeat;
+	        opacity:0.7;  
+	        width:100%;
+	        height:450px; 
+	        position:absolute;
+	        top:0;
+	        left:0;   
+	        z-index:-1;}  
+
+#banners h1{
+	    text-align:center;
+	  	font-size:80px; 
+	  	color:white;;
+}
+
+#quienes-somos{
+	width: 100%;
+	height: auto;
+	background-color: white/*#E9F4FA*/;
+	margin-top: -4px;
+	padding-bottom: 100px;
+	/*FLEX*/
+	display: flex;
+	justify-content: space-around;
+}        
+
+#quienes-somos h3{
+	font-size: 23px;
+    color: #103f87;
+    padding: 25px;
+    padding-top: 40px;
+}     
+
+.inf-somos{
+	width: 45%;
+	text-align: center;
+}
+
+.inf-somos{
+	font-size: 19px;
+    color: #587089;
+}
+
+/*separador
+.separador{
+	width: 10px;
+	background-color: black;
+	height: 50px;
+}*/
+
+.ctn-cuadros{
+	width: 50%;
+	/*background:linear-gradient(270deg, #6e6eaf, #a3a3a9);*/
+	text-align: center;
+	padding-bottom: 25px;
+}
+
+.cuadros{
+	padding-bottom: 20px;
+	display: grid;
+    grid-gap: 5%;
+    justify-content: center;
+    grid-template-columns: 35% 35%;
+    grid-template-rows: 60% 60%;
+    grid-template-areas:
+                        "uno dos"
+                        "tres cuatro";
+}
+
+.cuadros img{
+	width: 50%;
+	padding: 6px;
+}
+
+.uno{
+	    background-color: #cbba20;
+        padding: 12px;
+        border-radius: 0.5em;
+        padding: 8px;
+        box-shadow: 3px 3px 0px #3f626a;
+        color: white;
+		cursor:pointer;
+        -webkit-transition-duration:2s;
+}
+
+.uno:hover{
+	transform:scale(1.1); 
+	-webkit-transition:2s;
+}
+
+
+.dos{
+        background-color: #45c146;
+        padding: 12px;
+        border-radius: 0.5em;
+        padding: 8px;
+        box-shadow: 3px 3px 0px #3f626a;
+        color: white;
+		cursor:pointer;
+        -webkit-transition-duration:2s;
+}
+
+.dos:hover{
+	transform:scale(1.1); 
+	-webkit-transition:2s;
+}
+
+
+.tres{
+	    background-color: #1f75ad;
+        padding: 12px;
+        border-radius: 0.5em;
+        padding: 8px;
+        box-shadow: 3px 3px 0px #3f626a;
+        color: white;
+		cursor:pointer;
+        -webkit-transition-duration:2s;
+}
+
+.tres:hover{
+	transform:scale(1.1); 
+	-webkit-transition:2s;
+}
+
+.cuatro{
+	    background-color: #d73737;
+   	    padding: 12px;
+        border-radius: 0.5em;
+        padding: 8px;
+        box-shadow: 3px 3px 0px #3f626a;
+        color: white;
+		cursor:pointer;
+        -webkit-transition-duration:2s;
+}
+
+.cuatro:hover{
+	transform:scale(1.1); 
+	-webkit-transition:2s;
+}
+
+/*Historia*/
+
+#ctn-historia{
+  	width: 100%;
+    height: auto;
+    background-color: #19284e;
+    margin-top: -20px;
+    color: #ffffff;
+    padding-bottom: 25px;
+}
+
+#ctn-historia h1{
+    padding: 31px;
+    font-size: 28px;
+}
+
+#ctn-historia img{
+        width: 40px;
+}
+
+.h1{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.historia{
+	width: 100%;
+    text-align: left;
+    	/*FLEX*/
+	display: flex;
+    align-items: center;
+}
+
+.historia h2{
+	 padding-bottom: 20px;
+}
+
+.reseña{
+	width: 48%;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+.mision{
+	width: 48%;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+/*NOSOTROS*/
+
+#cnt-nosotros{
+	width: 100%;
+	height: auto;
+	/*background: linear-gradient(90deg, #0191de, #1666b3, #2c3c89);*/
+	color: #1b1a56;
+	background-color: #E9F4FA;
+}
+
+#cnt-nosotros h1{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 15px;
+}
+
+.nosotros{
+	padding-bottom: 2%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.personal{
+	text-align: center;
+}
+
+.personal img{
+	width: 25%;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+#loading{
+	display: inline-block;
+    padding-top: 30%;
+}
+
+.div_mapa_btn{
+	display: flex;
+}
+
+.div_mapa_btn a{
+	padding-left:5px;
+	text-decoration: none;
+	color: #103f87;
+	font-size: 13px;
+	font-weight: 700;
+}
+#mapa{
+	width: 100%;
+	height: 500px;
+	display: flex;
+    justify-content: center;
+	align-items: center;
+	
+}
+.cnt-mp{
+	width: 90%;
+	height: 450px;
+	display: flex;
+}
+.x {
+    right: 7%;
+    width: 18px;
+    position: absolute;
+    z-index: 100;
+    padding-top: 20px;
+}
+
+iframe{
+	width: 100%;
+	height: 100%;
+	border-radius: 0.3em;
+	box-shadow: 3px 4px 11px #4c5e62;
+	
+}
+
+/*CONTACTO*/
+
+#cnt-contacto{
+	width: 100%;
+	height: auto;
+	padding-top: 50px;
+    padding-bottom: 50px;
+	background-color: #85a0b1 /*#d1d1d1*/;
+	font-size: 17px;
+	color: white;
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#cnt-contacto img{
+	width: 150px;
+	padding-right: 25px;
+}
+
+#cnt-contacto h4{
+	padding-bottom: 20px;
+    font-size: 20px;
+}
+
+#cnt-contacto p{
+	padding: 3px;
+    font-weight: 600;
+}
+
+.ubicacion{
+	padding-right: 20px;
+}
+
+.telefono{
+	padding-right: 25px;
+}
+
+/*footer*/
+
+footer{
+	padding: 3px;
+    background: #28437e;
+    color: white;
+    text-align: center;
+}
+
+ /*TABLET*/
+     
+@media screen and (max-width:800px)/* and (min-width: 450px)*/{
+
+.cnt-menu{
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height:auto;
+}
+
+.logo{
+	 display: flex;
+	 justify-content: center;
+     align-items: center;
+     width: 100%;
+}
+
+nav{
+	width: 100%;
+}
+
+#banners h1 {
+	font-size: 45px;
+}
+
+#quienes-somos{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.inf-somos{
+	width: 80%;
+    margin-left: 11%;
+}
+
+.ctn-cuadros {
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+.historia{
+	display: flex;
+	flex-direction: column;
+}
+
+.reseña {
+    width: 75%;
+    padding-bottom: 25px;
+}
+
+.mision {
+    width: 75%;
+}        
+
+#cnt-contacto{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#cnt-contacto img{
+	width: 150px;
+	margin-bottom: 25px;
+}
+
+.ubicacion{
+	text-align: center;
+	padding-bottom: 25px;
+}
+
+.telefono{
+	text-align: center;
+}
+
+}
+
+/*TELEFONO*/
+
+@media screen and (max-width:420px){
+
+.cnt-menu {
+	position: relative;
+}
+
+.logo img {
+    width: 85px;
+    padding: 5px;
+}    
+
+.logo h2 {
+   display: none;   
+}    
+
+nav a {
+    font-size: 18px;
+}	
+
+
+.nosotros{
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+}
+
+#banners{
+   background-size: auto;
+}
+
+#banners{
+	margin-top: 0;
+}
+
+#banners h1 {
+    font-size: 35px;
+}
+
+#quienes-somos p{
+    font-size: 20px;
+}
+
+#quienes-somos h3 {
+    font-size: 26px;
+}
+
+.cuadros {
+    padding-bottom: 55px;
+	display: grid;
+    grid-template-columns: 70%;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-areas:
+        "uno"
+        "dos"
+        "tres"
+        "cuatro";
+}
+
+#ctn-historia h1 {
+    font-size: 33px;
+}
+
+.historia h2{
+	font-size: 25px;
+}
+
+.historia p{
+	font-size: 18px;
+}
+
+#cnt-nosotros h1 {
+    font-size: 30px;
+    padding-right: 4px;
+}
+
+.personal img {
+    width: 30%;
+}
+
+#cnt-nosotros{
+	font-size: 23px;
+}
+
+#cnt-contacto {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}

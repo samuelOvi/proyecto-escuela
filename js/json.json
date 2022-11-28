@@ -1,0 +1,32 @@
+{"datos":[
+    {
+        "titulo": "Docentes",
+        "info1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, facere? Consectetur iusto laboriosam minus nisi repudiandae suscipit dolor nihil explicabo repellat eius praesentium provident labore velit commodi delectus, quam aspernatur Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, facere? Consectetur iusto laboriosam minus nisi repudiandae suscipit dolor nihil explicabo repellat eius praesentium provident labore velit commodi delectus, quam aspernatur ",
+        "info2": ". Est, facere? Consectetur iusto laboriosam minus nisi repudiandae suscipit dolor nihil explicabo repellat eius praesentium provident labore velit commodi delectus, quam aspernatur?",
+        "id": "1"
+    },
+    {
+        "titulo": "Estudiantes",
+        "info1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, facere? Consectetur iusto laboriosam minus nisi repudiandae suscipit dolor nihil explicabo repellat eius praesentium provident labore velit commodi delectus, quam aspernatur?Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, facere? Consectetur iusto laboriosam minus nisi repudiandae suscipit dolor nihil explicabo repellat eius praesentium provident labore velit commodi delectus, quam aspernatur Lorem ipsum dolor sit amet ",
+        "info2": ". Est, facere? Consectetur iusto laboriosam minus nisi repudiandae suscipit dolor nihil explicabo repellat eius praesentium provident labore velit commodi delectus, quam aspernatur?",
+        "id": "2"
+    },
+    {
+        "titulo": "Turnos",
+        "info1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, facere? Consectetur iusto laboriosam minus nisi repudiandae suscipit dolor nihil explicabo repellat eius praesentium provident labore velit commodi delectus, quam aspernatur Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, facere? Consectetur iusto laboriosam minus nisi repudiandae suscipit dolor nihil explicabo repellat eius praesentium provident labore velit commodi delectus, quam aspernatur ",
+        "info2": ". Est, facere? Consectetur iusto laboriosam minus nisi repudiandae suscipit dolor nihil explicabo repellat eius praesentium provident labore velit commodi delectus, quam aspernatur?",
+        "id": "3"
+    },
+    {
+        "titulo": "Comedor",
+        "info1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, facere? Consectetur iusto laboriosam minus nisi repudiandae suscipit dolor nihil explicabo repellat eius praesentium provident labore velit commodi delectus, quam aspernatur Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, facere? Consectetur iusto laboriosam minus nisi repudiandae suscipit dolor nihil explicabo repellat eius praesentium provident labore velit commodi delectus, quam aspernatur ",
+        "info2": ". Est, facere? Consectetur iusto laboriosam minus nisi repudiandae suscipit dolor nihil explicabo repellat eius praesentium provident labore velit commodi delectus, quam aspernatur?",
+        "id": "4"
+    },
+    {
+        "titulo": "Quienes Somos",
+        "info1": "Somos Una Escuela estadal que lleva el nombre del Coronel Juan Manuel Aldao, que se enfoca en la gran educacion a base de la resposabilidad, donde se hace ensafis en la formacion integral llena de alores e igualdad; importacia en el compañerismo y la solidaridad, desarrolo en una cultura de emprendimiento, la tecnologia e innovacion en cada miemrbo, con una formacion de respetoy actitud que permiten el crecimiento de la cuidadania en pro dl bien comun de los sujetos que atendemos.",
+        "info2": "nuestra propuesta se desarrolla bajo un enfoque adactado como contextualizado, integrador y transformador, que conncibe la enseñanza aprendizaje como procesos de construccion colectiva del conicimiento, parcipipativo y dialogico",
+        "id": "5"
+    }
+]}
